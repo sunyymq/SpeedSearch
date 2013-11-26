@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    android:gravity="center_vertical" 
+    android:layout_gravity="center_vertical" 
+    android:orientation="horizontal" 
+    android:background="@drawable/title" 
+    android:layout_width="fill_parent" android:layout_height="wrap_content"
+  	xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button 
+        android:textSize="15.0dip" 
+        android:textColor="@color/white" 
+        android:id="@id/title_leftOperation" 
+        android:background="@drawable/b_backtop" 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" 
+        android:layout_marginLeft="5.0dip" 
+        android:text="@string/btnBack" />
+    <LinearLayout 
+        android:gravity="center" 
+        android:orientation="horizontal" 
+        android:id="@id/title_layout" 
+        android:layout_width="0dip" 
+        android:layout_height="wrap_content" 
+        android:layout_weight="1.0">
+        <TextView 
+            android:textSize="20.0dip" 
+            android:textColor="@color/white" 
+            android:gravity="center" 
+            android:id="@id/title_title" 
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content" 
+            android:singleLine="true" />
+        <TextView 
+            android:textSize="14.0dip" 
+            android:textColor="@color/white" 
+            android:layout_gravity="bottom" 
+            android:id="@id/title_subtitle" 
+            android:visibility="gone" 
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content" 
+            android:singleLine="true" />
+        <ImageView 
+            android:layout_gravity="bottom" 
+            android:id="@id/title_thirdtitle" 
+            android:visibility="gone" 
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content" 
+            android:src="@drawable/arrow_down_white" />
+    </LinearLayout>
+    <LinearLayout 
+        android:orientation="vertical" 
+        android:id="@id/title_rightOperation_layout" 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" 
+        android:layout_marginRight="5.0dip">
+        <Button 
+            android:textSize="15.0dip" 
+            android:textColor="@color/white" 
+            android:id="@id/title_rightOperation" 
+            android:background="@drawable/b_top_right" 
+            android:visibility="invisible" 
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

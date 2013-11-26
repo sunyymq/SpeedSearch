@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+    android:background="@color/bg_activity" 
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent"
+  	xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout 
+        android:id="@id/rL_wcc39and128" 
+        android:background="@drawable/title" 
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content" 
+        android:layout_alignParentTop="true">
+        <TextView 
+            android:textSize="20.0dip" 
+            android:textColor="#ffffffff" 
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content" 
+            android:layout_margin="10.0dip" 
+            android:text="@string/scanresult" 
+            android:layout_centerInParent="true" />
+        <Button 
+            android:textSize="15.0dip" 
+            android:textColor="#ffffffff" 
+            android:id="@id/btn_wcc39and128_back" 
+            android:background="@drawable/b_backtop" 
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content" 
+            android:layout_marginLeft="5.0dip" 
+            android:text="@string/button_back" 
+            android:layout_alignParentLeft="true" 
+            android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <ScrollView 
+        android:scrollbars="none" 
+        android:layout_width="fill_parent" 
+        android:layout_height="fill_parent" 
+        android:layout_below="@id/rL_wcc39and128" 
+        android:layout_centerInParent="true">
+        <LinearLayout 
+            android:orientation="vertical" 
+            android:padding="10.0dip" 
+            android:layout_width="fill_parent" 
+            android:layout_height="wrap_content">
+            <LinearLayout 
+                android:gravity="center" 
+                android:layout_gravity="center_horizontal" 
+                android:id="@id/lL_image" 
+                android:background="@drawable/barcode_frame" 
+                android:layout_width="fill_parent" 
+                android:layout_height="wrap_content" 
+                android:layout_marginLeft="20.0dip" 
+                android:layout_marginTop="20.0dip" 
+                android:layout_marginRight="20.0dip">
+                <ImageView 
+                    android:id="@id/img_barcode" 
+                    android:layout_width="fill_parent" 
+                    android:layout_height="wrap_content" 
+                    android:scaleType="fitXY" />
+            </LinearLayout>
+            <TextView 
+                android:textSize="18.0dip" 
+                android:textColor="@color/black" 
+                android:layout_gravity="left" 
+                android:layout_width="wrap_content" 
+                android:layout_height="wrap_content" 
+                android:layout_marginBottom="5.0dip" 
+                android:text="@string/scancodeinfo" />
+            <LinearLayout 
+                android:gravity="center_vertical" 
+                android:orientation="horizontal" 
+                android:background="@drawable/bg_list_top" 
+                android:layout_width="fill_parent" 
+                android:layout_height="wrap_content">
+                <TextView 
+                    android:textSize="16.0dip" 
+                    android:textColor="@color/wcc_color_7" 
+                    android:layout_width="wrap_content" 
+                    android:layout_height="wrap_content" 
+                    android:text="@string/scancodetype" />
+                <TextView 
+                    android:textSize="16.0dip" 
+                    android:textColor="@color/wcc_blue" 
+                    android:id="@id/tv_barcode_type" 
+                    android:layout_width="fill_parent" 
+                    android:layout_height="wrap_content" 
+                    android:layout_marginLeft="5.0dip" />
+            </LinearLayout>
+            <LinearLayout 
+                android:gravity="center_vertical" 
+                android:orientation="horizontal" 
+                android:background="@drawable/bg_list_bottom" 
+                android:layout_width="fill_parent" 
+                android:layout_height="wrap_content">
+                <TextView 
+                    android:textSize="16.0dip" 
+                    android:textColor="@color/wcc_color_7" 
+                    android:layout_width="wrap_content" 
+                    android:layout_height="wrap_content" 
+                    android:text="@string/scancodemess" />
+                <TextView 
+                    android:textSize="16.0dip" 
+                    android:textColor="@color/wcc_blue" 
+                    android:id="@id/tv_barcode_string" 
+                    android:layout_width="fill_parent" 
+                    android:layout_height="wrap_content" 
+                    android:layout_marginLeft="5.0dip" />
+            </LinearLayout>
+            <TextView 
+                android:textSize="18.0dip" 
+                android:textColor="@color/black" 
+                android:layout_gravity="left" 
+                android:layout_width="wrap_content" 
+                android:layout_height="wrap_content" 
+                android:layout_marginTop="10.0dip" 
+                android:layout_marginBottom="5.0dip" 
+                android:text="@string/scancodeformat" />
+            <LinearLayout 
+                android:orientation="vertical" 
+                android:layout_width="fill_parent" 
+                android:layout_height="wrap_content">
+                <LinearLayout 
+                    android:gravity="center_vertical" 
+                    android:orientation="horizontal" 
+                    android:id="@id/lL_express" 
+                    android:background="@drawable/bg_list_top" 
+                    android:layout_width="fill_parent" 
+                    android:layout_height="wrap_content">
+                    <TextView 
+                        android:textSize="16.0dip" 
+                        android:textColor="@color/wcc_color_7" 
+                        android:gravity="left" 
+                        android:duplicateParentState="true" 
+                        android:layout_width="0dip" 
+                        android:layout_height="wrap_content" 
+                        android:text="@string/scancodeexpress" 
+                        android:layout_weight="1.0" />
+                    <ImageView 
+                        android:layout_gravity="right|center" 
+                        android:duplicateParentState="true" 
+                        android:layout_width="wrap_content" 
+                        android:layout_height="wrap_content" 
+                        android:layout_marginRight="5.0dip" 
+                        android:src="@drawable/arrow_right" />
+                </LinearLayout>
+                <LinearLayout 
+                    android:gravity="center_vertical" 
+                    android:orientation="horizontal" 
+                    android:id="@id/lL_drug" 
+                    android:background="@drawable/bg_list_bottom" 
+                    android:layout_width="fill_parent" 
+                    android:layout_height="wrap_content">
+                    <TextView 
+                        android:textSize="16.0dip" 
+                        android:textColor="@color/wcc_color_7" 
+                        android:gravity="left" 
+                        android:duplicateParentState="true" 
+                        android:layout_width="0dip" 
+                        android:layout_height="wrap_content" 
+                        android:text="@string/scancodedrug" 
+                        android:layout_weight="1.0" />
+                    <ImageView 
+                        android:layout_gravity="right|center" 
+                        android:duplicateParentState="true" 
+                        android:layout_width="wrap_content" 
+                        android:layout_height="wrap_content" 
+                        android:layout_marginRight="5.0dip" 
+                        android:src="@drawable/arrow_right" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

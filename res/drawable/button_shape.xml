@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">	//定义当button 处于pressed 状态时的形态。
+<shape>
+            <gradient android:startColor="#ff092d00" android:endColor="#ffffffff" />
+            <stroke android:width="2.0dip" android:color="#ff000000" />
+            <corners android:radius="5.0dip" />
+            <padding android:left="10.0dip" android:top="10.0dip" android:right="10.0dip" android:bottom="10.0dip" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <gradient android:startColor="#ffffffff" android:endColor="#ffffffff" />
+            <stroke android:width="2.0dip" android:color="#00000000" android:dashWidth="5.0dip" android:dashGap="3.0dip" />
+            <corners android:radius="8.0dip" />
+            <padding android:left="10.0dip" android:top="10.0dip" android:right="10.0dip" android:bottom="10.0dip" />
+        </shape>
+    </item>
+</selector>

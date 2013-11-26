@@ -1,0 +1,68 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/bg"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <com.android.speedsearch.adapter.SpeedsearchView
+        android:id="@+id/specail_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        
+        <com.android.speedsearch.adapter.Speedbutton 
+            android:id="@+id/speedbutton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/capture"
+            android:gravity="center"/>
+
+        <com.android.speedsearch.adapter.Speedbutton 
+            android:id="@+id/speedbutton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/logo"
+            android:gravity="center"
+            android:text="@string/main_scan"/>
+        
+        <com.android.speedsearch.adapter.Speedbutton
+            android:id="@+id/speedbutton3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/logo"
+            android:gravity="center"
+            android:text="@string/main_input"/>
+        
+        <com.android.speedsearch.adapter.Speedbutton 
+            android:id="@+id/speedbutton4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/logo"
+            android:gravity="center"
+            android:text="@string/main_encode"/>
+        
+        <com.android.speedsearch.adapter.Speedbutton 
+            android:id="@+id/speedbutton5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/logo"
+            android:gravity="center"
+            android:text="@string/main_history"/>
+        
+        <com.android.speedsearch.adapter.Speedbutton 
+            android:id="@+id/speedbutton6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/logo"
+            android:gravity="center"
+            android:text="@string/main_settings"/>
+        
+        <com.android.speedsearch.adapter.Speedbutton 
+            android:id="@+id/speedbutton7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/logo"
+            android:gravity="center"
+            android:text="@string/main_aboutus"/>
+    </com.android.speedsearch.adapter.SpeedsearchView>
+
+</RelativeLayout>

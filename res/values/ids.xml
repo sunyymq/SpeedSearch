@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+ Copyright (C) 2008 ZXing authors
+
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+ -->
+<resources>
+    <item type="id" name="auto_focus" />
+    <item type="id" name="decode" />
+    <item type="id" name="decode_failed" />
+    <item type="id" name="decode_succeeded" />
+    <item type="id" name="encode_failed" />
+    <item type="id" name="encode_succeeded" />
+    <item type="id" name="launch_product_query" />
+    <item type="id" name="quit" />
+    <item type="id" name="restart_preview" />
+    <item type="id" name="return_scan_result" />
+    <item type="id" name="search_book_contents_failed" />
+    <item type="id" name="search_book_contents_succeeded" />
+    <item type="id" name="tabcontent" />
+    <item type="id" name="tabs" />
+    <item type="id" name="tabhost" />
+    <item type="id" name="etExpNo" />
+    <item type="id" name="etExpCompany" />
+    <item type="id" name="btnScan" />
+    <item type="id" name="btnSearch" />
+    <item type="id" name="spinner_item_textview" />
+    <item type="id" name="spinnerCompany" />
+    <item type="id" name="tab_item_TextView" />
+    <item type="id" name="tab_item_ImageView" />
+    <item type="id" name="about" />
+    <item type="id" name="listview_item_textview" />
+    <item type="id" name="lv_result" />
+    <item type="id" name="lv_history" />
+    <item type="id" name="tv_result" />
+    <item type="id" name="tv_history" />
+    <item type="id" name="tv_date" />
+    <item type="id" name="tv_name" />
+    <item type="id" name="tv_number" />
+    <item type="id" name="iv_more" />
+    <item type="id" name="tv_more" />
+    <item type="id" name="more_listview" />
+    <item type="id" name="submit" />
+    <item type="id" name="AdLinearLayout">false</item>
+    <item type="id" name="preview_view">false</item>
+    <item type="id" name="viewfinder_view">false</item>
+    <item type="id" name="status_view">false</item>
+    <item type="id" name="btnBack">false</item>
+    <item type="id" name="linearLayout1">false</item>
+    <item type="id" name="linearLayout2">false</item>
+    <item type="id" name="rL_wcc39and128">false</item>
+    <item type="id" name="btn_wcc39and128_back">false</item>
+    <item type="id" name="lL_image">false</item>
+    <item type="id" name="img_barcode">false</item>
+    <item type="id" name="tv_barcode_type">false</item>
+    <item type="id" name="tv_barcode_string">false</item>
+    <item type="id" name="lL_express">false</item>
+    <item type="id" name="lL_drug">false</item>
+    <item type="id" name="titlebar">false</item>
+    <item type="id" name="express_search_bar">false</item>
+    <item type="id" name="fL_content">false</item>
+    <item type="id" name="lL_characters">false</item>
+    <item type="id" name="title_leftOperation">false</item>
+    <item type="id" name="title_layout">false</item>
+    <item type="id" name="title_title">false</item>
+    <item type="id" name="title_subtitle">false</item>
+    <item type="id" name="title_thirdtitle">false</item>
+    <item type="id" name="title_rightOperation_layout">false</item>
+    <item type="id" name="title_rightOperation">false</item>
+    <item type="id" name="rL_search_content">false</item>
+    <item type="id" name="img_search">false</item>
+    <item type="id" name="img_cancel">false</item>
+    <item type="id" name="input_keyword">false</item>
+    <item type="id" name="btn_search">false</item>
+</resources>
